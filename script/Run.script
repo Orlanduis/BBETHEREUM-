@@ -1,0 +1,5 @@
+run-script script_name flags='' sig='' args='':
+  sh -c 'FOUNDRY_PROFILE=ci forge script script/{{script_name}}.s.sol {{sig}} {{args}}     --rpc-url "https://rpc.buildbear.io/esquivelfabian"     --private-key "0x6d4f1d1ac646f15a144a904e24afa4fd1d94d69983dd91b7835388de4d31eb40"     --etherscan-api-key "verifyContract"     --verifier-url "https://rpc.buildbear.io/verify/etherscan/esquivelfabian"     -vvvv {{flags}}' 
+
+deploy-verify:
+  sh -c 'just run-script <SCRIPT_NAME> "--broadcast --verify --slow"'
