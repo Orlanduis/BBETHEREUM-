@@ -1,0 +1,1 @@
+forge script script/<SCRIPT_NAME>.s.sol --rpc-url buildbear --private-key "0x6d4f1d1ac646f15a144a904e24afa4fd1d94d69983dd91b7835388de4d31eb40"  --etherscan-api-key "verifyContract" --verifier-url "https://rpc.buildbear.io/verify/etherscan/esquivelfabian" -vvvv --broadcast --verify --slow
