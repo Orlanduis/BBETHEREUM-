@@ -1,9 +1,9 @@
 "Env": {
             "INDEXER_DISABLE_BLOCK_REWARD_FETCHER": "true",
             "CACHE_BLOCK_COUNT_PERIOD": "1m",
-            "INDEXER_OPTIMISM_L1_RPC": "leo-testnet-rpc.service.consul:8545", # this is my L2 rpc
+            "INDEXER_OPTIMISM_L1_RPC": "https://rpc.buildbear.io/esquivelfabian", # this is my L2 rpc
             "INDEXER_OPTIMISM_L2_BATCH_GENESIS_BLOCK_NUMBER": "126241133",
-            "SUBNETWORK": "leo-testnet",
+            "SUBNETWORK": "entitled rougue",
             "MICROSERVICE_SIG_PROVIDER_ENABLED": "true",
             "ETHEREUM_JSONRPC_VARIANT": "geth",
             "INDEXER_MEMORY_LIMIT": "300Mb",
@@ -14,7 +14,7 @@
             "DISABLE_INDEXER": "false",
             "INDEXER_OPTIMISM_L2_MESSAGE_PASSER_CONTRACT": "0x4200000000000000000000000000000000000011",
             "MICROSERVICE_VISUALIZE_SOL2UML_ENABLED": "true",
-            "INDEXER_OPTIMISM_L1_BATCH_START_BLOCK": "6442332",
+            "INDEXER_OPTIMISM_L1_BATCH_START_BLOCK": "126241133",
             "INDEXER_OPTIMISM_L1_BATCH_BLOCKS_CHUNK_SIZE": "4",
             "COIN": "ETH",
             "ECTO_USE_SSL": "false",
@@ -23,7 +23,7 @@
             "MICROSERVICE_SC_VERIFIER_TYPE": "sc_verifier",
             "INDEXER_OPTIMISM_L1_OUTPUT_ORACLE_CONTRACT": "0x2491b230BaA58200B0C2857eaB1bFD523bE345b4"
 
-            "ETHEREUM_JSONRPC_WS_URL": "ws://leo-testnet-rpc.service.consul:8546",
+            "ETHEREUM_JSONRPC_WS_URL": "https://rpc.buildbear.io/esquivelfabian",
             "INDEXER_OPTIMISM_L1_PORTAL_CONTRACT": "0x2491b230BaA58200B0C2857eaB1bFD523bE345b4",
             "INDEXER_DISABLE_PENDING_TRANSACTIONS_FETCHER": "true",
             "COIN_NAME": "Ether",
