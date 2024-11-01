@@ -1,0 +1,8 @@
+networks: {
+  hardhat: {
+    forking: {
+      url: "https://mainnet.infura.io/v3/<key>",
+      blockNumber: 117422161
+    }
+  }
+}
