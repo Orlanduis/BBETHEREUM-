@@ -1,18 +1,39 @@
-# BBETHEREUM-
-## Getting Started
+🚨🚨🚨🚨🚨 **WARNING** 🚨🚨🚨🚨🚨
 
-First, run the development server:
+This repository is not maintained anymore.
 
-```bash
-npm run dev
-# or
-yarn dev
+The Remix Team has included this into the core Remix project.
+
+You can check it here. https://github.com/ethereum/remix-project/tree/master/apps/etherscan 
+
+-----
+
+# Remix Etherscan Plugin
+
+A plugin to verify contracts in Etherscan
+
+[![CircleCI](https://circleci.com/gh/Machinalabs/remix-etherscan-plugin.svg?style=svg)](https://circleci.com/gh/Machinalabs/remix-etherscan-plugin)
+
+Full documentation https://remix-etherscan-plugin.readthedocs.io/en/latest/
+
+### Install
+
+```
+$ git clone git@github.com:Machinalabs/remix-etherscan-plugin.git
+
+$ yarn
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Commands
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+$ yarn start # start development project
 
-## Adding your RPC
+$ yarn deploy # deploy to surge
 
-If you wish to add your RPC, please follow this [PR template]https://rpc.buildbear.io/esquivelfabian
+$ yarn build # build production project
+
+```
+
+
